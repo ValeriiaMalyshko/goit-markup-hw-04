@@ -260,24 +260,37 @@ img {
 .command-social {
     display: flex;
     justify-content: center;
-    overflow: visible;
+    margin-top: 16px;
 }
 .social-item {
     width: 44px;
     height: 44px;
+    margin-right: 10px;
+}
+.social-item:last-child {
+    margin-right: 0;
 }
 .social-icon {
     width: 20px;
     height: 20px;
-    fill:currentColor;
+    fill: #AFB1B8;
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill: var(--primary-background-color);
 }
 .social-link {
     width: 100%;
     height: 100%;
-    background-color: tomato;
+    border-radius: 50%;
+    background-color:var(--primary-background-color);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
 }
 
 /* footer */
