@@ -340,6 +340,41 @@ img {
 .social-link:focus {
     background-color: var(--accent-color);
 }
+/* client */
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.client-title {
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.client .list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.client-item {
+    width: 170px;
+    height: 92px;
+    margin-right: 30px;
+}
+.client-item:last-child {
+    margin-right: 0;
+}
+.social-icon {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+    fill: var(--accent-color);
+}
 
 /* footer */
 footer {
