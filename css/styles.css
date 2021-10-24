@@ -353,10 +353,9 @@ img {
     line-height: 1.17;
     text-align: center;
 }
-.client .list {
+.client-list {
     display: flex;
     justify-content: center;
-    margin-top: 16px;
 }
 .client-item {
     width: 170px;
@@ -366,13 +365,21 @@ img {
 .client-item:last-child {
     margin-right: 0;
 }
-.social-icon {
+.company-icon {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
 }
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.company-link {
+    width: 100%;
+    height: 100%;
+    background-color:var(--primary-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company-link:hover .company-icon,
+.company-link:focus .company-icon {
     fill: var(--accent-color);
 }
 
